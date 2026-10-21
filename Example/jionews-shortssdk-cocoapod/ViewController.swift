@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     // Staging Authorization (JWT) token for the JioNews GraphQL endpoint.
     
-    private var hid = "4388842af19d80e20860dbc76fd6e76ce204422092e19015940c02cf5186e14c"
+    private var hid = "ffbc92ccb4afb969c30834b41895f7ad61b3d394c0007fb4b96416b4d7d9d806"
 
 
     override func viewDidLoad() {

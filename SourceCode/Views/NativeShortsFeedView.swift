@@ -237,6 +237,7 @@ struct NativeShortCardView: View {
                     onProgress: { progress = $0 },
                     onDuration: { controller.recordDuration($0, for: item.id) }
                 )
+                .ignoresSafeArea()
                 .allowsHitTesting(false)
             }
 
