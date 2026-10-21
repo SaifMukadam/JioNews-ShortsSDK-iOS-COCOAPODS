@@ -246,6 +246,7 @@ struct NativeShortCardView: View {
                 Color.clear
                     .overlay { ThumbnailImage(url: url) }
                     .clipped()
+                    .ignoresSafeArea()  // fix 2 of 2: thumbnail matches video full-bleed size, no jump when video starts
                     .allowsHitTesting(false)
                     .opacity(isCurrent && hasStartedPlaying ? 0 : 1)
                     .animation(.easeOut(duration: 0.25), value: hasStartedPlaying)

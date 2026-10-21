@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'jionews-shortssdk-cocoapod'
-  s.version          = '3.1.2'
+  s.version          = '3.1.3'
   s.summary          = 'SDK/Cocoapod to access the JioNews Short Video feature, powered by a native AVPlayer feed.'
 
 # This description is used to generate tags and improve search results.
